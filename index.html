@@ -1,1 +1,258 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ACF – Exam Guide ch 12–34</title>
+<style>
+:root{--bg:#0f1117;--s:#1a1d27;--s2:#22263a;--bd:#2e3350;--a1:#6c8ef0;--a2:#e07b54;--a3:#5ec4a1;--a4:#c97fe8;--a5:#f0c96c;--t:#e2e8f5;--m:#8892aa}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--t);font:14px/1.6 Inter,system-ui,-apple-system,Segoe UI,sans-serif;padding:24px 16px}
+.pg{max-width:1100px;margin:0 auto}
+.hd{text-align:center;padding:40px 0 24px;border-bottom:1px solid var(--bd)}
+.hd h1{font-size:32px;letter-spacing:-.5px;background:linear-gradient(135deg,var(--a1),var(--a4));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hd p{color:var(--m);font-size:12px;text-transform:uppercase;letter-spacing:.5px;margin-top:6px}
+nav{position:sticky;top:0;z-index:9;background:rgba(15,17,23,.92);backdrop-filter:blur(6px);padding:10px 0;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;border-bottom:1px solid var(--bd)}
+nav a{color:var(--m);text-decoration:none;font-size:11.5px;border:1px solid var(--bd);border-radius:6px;padding:2px 9px}
+nav a:hover{color:var(--a1);border-color:var(--a1)}
+.sl{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:var(--m);margin:36px 0 14px;display:flex;align-items:center;gap:10px;scroll-margin-top:60px}
+.sl:after{content:'';flex:1;height:1px;background:var(--bd)}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-bottom:16px}
+.c{background:var(--s);border:1px solid var(--bd);border-radius:12px;padding:18px;border-top:3px solid var(--a1)}
+.o{border-top-color:var(--a2)}.gr{border-top-color:var(--a3)}.p{border-top-color:var(--a4)}.y{border-top-color:var(--a5)}
+.c h2{font-size:13px;margin-bottom:10px}
+ul{list-style:none}li{padding:4px 0 4px 14px;border-bottom:1px solid var(--bd);font-size:13px;position:relative}
+li:last-child{border:0}li:before{content:'–';position:absolute;left:0;color:var(--m)}
+b{color:#fff}
+.k{background:var(--s2);border-left:3px solid var(--a2);border-radius:0 8px 8px 0;padding:8px 12px;margin-top:10px;font-size:12.5px;color:var(--m)}
+.k b{color:var(--t)}
+code,.f{font-family:'Fira Mono',ui-monospace,monospace;font-size:12px;color:var(--a3)}
+.f{display:block;background:var(--s2);border-radius:6px;padding:5px 9px;margin:5px 0}
+.t{display:inline-block;background:rgba(108,142,240,.1);border:1px solid rgba(108,142,240,.3);color:var(--a1);border-radius:6px;padding:1px 8px;font-size:11.5px;margin:2px 2px 0 0}
+.ft{text-align:center;color:var(--m);font-size:11px;margin-top:48px;padding-top:20px;border-top:1px solid var(--bd)}
+.f{font-family:inherit;color:var(--t);text-align:center;padding:8px 12px;margin:6px 0;overflow-x:auto}
+.katex{color:var(--t)}.fl{font-size:10.5px;text-transform:uppercase;letter-spacing:1px;color:var(--a5);margin:12px 0 0}
+.f .katex-display{margin:0}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js" onload="renderMathInElement(document.body,{delimiters:[{left:'\\[',right:'\\]',display:true},{left:'\\(',right:'\\)',display:false}]})"></script>
+</head><body><div class="pg">
+<div class="hd"><h1>Advanced Corporate Finance</h1><p>Exam guide · ch 12–34 · BMA Principles of Corporate Finance, 11th ed.</p></div>
+<nav><a href="#r">Red thread</a><a href="#a">A Market 12–15</a><a href="#b">B Capital structure 16–18</a><a href="#c">C Governance 19–20</a><a href="#d">D Options 21–23</a><a href="#e">E Debt 24–26</a><a href="#f">F Risk &amp; planning 27–31</a><a href="#g">G Mergers 32–34</a><a href="#x">Formulas</a><a href="#z">Connections</a></nav>
 
+<div class="sl" id="r">The red thread</div>
+<div class="g">
+<div class="c"><h2>Seven blocks, one question: who has a claim, and when?</h2><ul>
+<li><b>A Market (12–15):</b> financing is NPV = 0; money is made on investments. Imperfections (behavioural, signalling, costs) are where financing matters.</li>
+<li><b>B Capital structure (16–18):</b> MM: V<sub>L</sub> = V<sub>U</sub>; tax favours debt, distress/agency costs penalise → trade-off; asymmetric info → pecking order. WACC &amp; APV.</li>
+<li><b>C Governance (19–20):</b> managers ≠ owners → agency problems; shareholders vs stakeholders.</li>
+<li><b>D Options (21–23):</b> replication, binomial, Black–Scholes, real options.</li></ul></div>
+<div class="c o"><h2>&nbsp;</h2><ul>
+<li><b>E Debt (24–26):</b> equity = call on assets, debt = riskless bond − default put. Credit risk, ratings, covenants, convertibles, leasing, SPVs, PE layers.</li>
+<li><b>F Risk &amp; planning (27–31):</b> hedge only where frictions add value; natural hedge and treasury first, derivatives for the residual. DuPont, PI, forecasts, EFN, sustainable growth.</li>
+<li><b>G Control (32–34):</b> mergers create value only via real synergies; takeovers, LBOs, spin-offs, bankruptcy move control. 8 ideas we know, 10 problems we don't.</li></ul>
+<div class="k"><b>Threads:</b> agency (15, 17, 19, 32) · option logic (17, 21–24, 27, 33) · MM → tax → distress → trade-off (16–17) · claim &amp; queue (24–26, 33)</div></div></div>
+
+<div class="sl" id="a">A · The market (ch 12–15)</div>
+<div class="g">
+<div class="c"><h2>Ch 12 – Efficient markets</h2><ul>
+<li><b>Financing = NPV 0:</b> selling a bond/share at market price gives exactly the value given up. Investments can have NPV &gt; 0; inefficient markets allow NPV ≥ 0 (issue overvalued shares).</li>
+<li><b>EMH:</b> Fama: prices reflect all information. Jensen: no <i>consistent</i> excess returns.</li>
+<li><b>Weak</b> (past prices → technical analysis fails) · <b>Semistrong</b> (public info → fundamental analysis fails) · <b>Strong</b> (even private info → insider trading fails)</li>
+<li><b>Implications:</b> random walk (serial corr. ≈ 0: MSFT −0.038, IBM −0.019), cycles self-destruct, good company ≠ good investment, hold the market portfolio, Grossman–Stiglitz paradox, event studies.</li>
+<li><b>Not implied:</b> stable prices, nobody makes/loses money, agreement, equal returns (risk earns a premium).</li>
+<li><b>Inefficient market:</b> overpriced stock → advantage to issuing; myopic markets may penalise long-term investment (e.g. ESG).</li>
+<li><b>Evidence:</b> short-term reversal and momentum; active funds rarely beat the index after fees; fast reaction to bids/earnings; some post-earnings drift (underreaction).</li>
+<li><b>Behavioural:</b> prospect theory (loss aversion), overreaction/underreaction, sentiment; limits to arbitrage (short squeezes, Royal Dutch/Shell, LTCM); beware data mining.</li></ul>
+<div class="k"><b>Exam tip:</b> know which analysis each form rules out; why EMH ≠ "nobody can make money".</div></div>
+<div class="c o"><h2>Ch 13 – Financing patterns</h2><ul>
+<li>Retained earnings dominate for US non-financials; net equity issues often negative (buybacks).</li>
+<li><b>Equity:</b> cash-flow vs control rights, separation of ownership/control, preferred. Concentration highest in Russia, Argentina, Turkey; lowest in USA, UK, S. Korea.</li>
+<li><b>Debt:</b> short/long, fixed/floating, currency, senior/junior, secured/unsecured; no vote (except covenants). Debt-like: payables, leases, pensions.</li>
+<li><b>Financial system:</b> payments, borrowing/lending, pooling risk, price information. Primary vs secondary markets; banks, insurers, funds, pensions.</li>
+<li>Bank-based (Germany, Japan) vs market-based (USA, UK); conglomerates, internal capital markets, family ownership.</li>
+<li><b>Fintech:</b> payments, P2P, crowdfunding, AI/ML scoring, blockchain, crypto, ICOs.</li></ul></div></div>
+
+<div class="g">
+<div class="c gr"><h2>Ch 14 – Issuing securities</h2><ul>
+<li><b>Venture capital:</b> idea → plan → seed → Series A (down rounds possible) → B → exit (IPO/sale). VC active in governance. Post-money = value after investment (Aqua $14m; down round $5.6m).</li>
+<li><b>IPO motives (CFO survey):</b> shares for acquisitions 59%, market price 51%, reputation 49%, broaden ownership, founder diversification, lower cost of capital, VC exit.</li>
+<li><b>Process:</b> underwriter → registration → prospectus → indicative pricing → book building → final price.</li>
+<li><b>Costs:</b> spread ≈ 7% small issues, 1.4% for Rivian; % falls with size.</li>
+<li><b>Underpricing:</b> positive first-day return; explained by winner's curse (uninformed must be attracted), agency problems. Also hot issues, poor long-run performance, auctions, SPACs.</li>
+<li><b>Seasoned sales:</b> public offers (equity costlier than bonds), rights issues (preemptive), private placements. Price reaction: supply effect, signalling (issue when overvalued → price falls), agency.</li></ul></div>
+<div class="c y"><h2>Rights issue – recurring calculation</h2>
+<div class="f">\[P_{ex}=\frac{N_{old}\,P+N_{new}\,K}{N_{old}+N_{new}}\]</div><div class="f">\[\text{Right}=P-P_{ex}\ (\text{per old share})=P_{ex}-K\ (\text{per new share})\]</div>
+<ul><li>Value per old share = value per new share × (new/old). Read which one the question asks!</li>
+<li><b>Ivanhoe</b> 3 for 20, P 24.73, K 13.93: P_ex = 23.32; right 9.39 per new share.</li>
+<li><b>Lafarge</b> 4 for 17, P €60, K €41: P_ex = €56.38; right €15.38 per new.</li>
+<li><b>MacKenzie</b> 11m sh, 5:1, K $39, P $42: raised 11/5·39 = $85.8m; P_ex = (42·11+85.8)/13.2 = $41.50; right $0.50 per old.</li></ul>
+<div class="k">A fully subscribed rights issue is value-neutral.</div></div></div>
+
+<div class="g">
+<div class="c p"><h2>Ch 15 – Payout policy</h2><ul>
+<li><b>Facts:</b> 27.7% do both dividends and buybacks, 36.7% neither. Timeline: declaration, ex-dividend, record, payment. Buybacks more common in US. 93.8% avoid cutting dividends, 89.6% want smooth stream (sticky); buybacks seen as flexible.</li>
+<li><b>MM irrelevance:</b> value set by investments, not payout. Dividend funded by new issue shifts value between old/new holders only.</li>
+<li><b>Fallacies:</b> need dividends to live (home-made dividends), price = PV of dividends (also with buybacks), dividends safe vs risky gains. DCF: use total payout.</li>
+<li><b>Signalling:</b> dividend ↑ positive, cut negative; buyback may signal undervaluation.</li>
+<li><b>Clienteles:</b> transaction costs, convenience, self-control.</li>
+<li><b>Taxes:</b> Australian imputation: firm pays 30, holder gets grossed-up 100 + credit 30; net 85/70/55 for 15/30/45% brackets → no double tax.</li>
+<li><b>Agency:</b> outcome model (strong protection → higher payouts) vs substitution model (payout substitutes weak protection).</li>
+<li><b>Life cycle:</b> growth (invest) → maturing → mature (pay out).</li></ul></div>
+<div class="c"><h2>&nbsp;</h2><div class="k" style="margin-top:0"><b>Why payout matters only in imperfect markets:</b> taxes, information (signals), agency (free cash flow), transaction costs.</div></div></div>
+
+<div class="sl" id="b">B · Capital structure (ch 16–18)</div>
+<div class="g">
+<div class="c"><h2>Ch 16 – MM in perfect markets</h2><ul>
+<li><b>MM I:</b> \(V_L=V_U\). Proof by arbitrage with home-made leverage. "No cheaper to assemble a chicken from parts."</li>
+<li><b>Leverage changes EPS and risk, not value.</b> Macbeth: EBIT 1,500, 50% debt @10%: EPS 2.00 vs 1.50, range 0–3.00 vs 0.50–2.00.</li>
+<li><b>MM II:</b><div class="f">\[r_E=r_A+(r_A-r_D)\frac{D}{E}\]</div><div class="f">\[r_A=\frac{D}{V}\,r_D+\frac{E}{V}\,r_E=\text{constant}\]</div>If debt gets riskier (r<sub>D</sub>↑), r<sub>E</sub> flattens. If debt is riskless:<div class="f">\[\beta_E=\beta_A\left(1+\frac{D}{E}\right)\]</div></li>
+<li><b>Break-even EBIT</b> (EPS<sub>U</sub> = EPS<sub>L</sub>): Orion EBIT/200 = (EBIT−320)/120 → 800; Alpha 1,000.</li>
+<li><b>Arbitrage (Ex 3):</b> V<sub>L</sub> 1,000 &gt; V<sub>U</sub> 900: sell 1% L (7), borrow 1% of L's debt (3), buy 1% U (9) → profit 1 now, same future CF.</li>
+<li><b>Ex 2c:</b> convertible 4.5% blended into r<sub>D</sub> = 6%, r<sub>A</sub> = 11.6% → r<sub>E</sub> = 17.2%.</li></ul>
+<div class="k"><b>Tip:</b> draw r<sub>E</sub>, r<sub>D</sub>, WACC vs D/E (WACC flat without tax).</div></div>
+<div class="c o"><h2>Ch 17 – How much to borrow?</h2><ul>
+<li><b>Tax shield:</b> annual \(t_C\,r_D\,D\) (0.21·0.08·3,000 = 50). Permanent debt: \(V_L=V_U+t_C\,D\) (Alphabet +$20bn debt → +$4.2bn).</li>
+<li><b>Limits:</b> need profits, deduction cap (30% EBIT), debt not permanent, marginal rate &lt; 21%, personal taxes: debt favoured if \((1-t_P)>(1-t_C)(1-t_E)\) (example: 0.687 equity vs 0.630 interest → equity wins).</li>
+<li><b>Clientele:</b> individuals borrow dearer than firms.</li>
+<li><b>Bankruptcy costs:</b> legal fees, fire sales, lost customers/suppliers/staff.</li>
+<li><b>Agency – equity:</b> free cash flow, empire building; debt disciplines.</li>
+<li><b>Agency – debt (Circular File:</b> debt 50, assets 30 → debt 27, equity 3): <b>risk shifting</b> (invest 20, 20% chance of 90: firm 30→28, equity 3→10, lenders 27→18); <b>debt overhang</b> (project +15 rejected: holders gain +7 but pay 10).</li>
+<li><b>Trade-off:</b> \(V=V_U+PV(\text{shield})-PV(\text{distress and agency})\). Safe, profitable, tangible firms → more debt.</li>
+<li><b>Pecking order:</b> internal → debt → equity. Profitable firms have less debt; large/tangible more; high M/B less.</li></ul>
+<div class="k"><b>Classic:</b> trade-off says profitable firms borrow more, pecking order says less.</div></div></div>
+
+<div class="g">
+<div class="c gr"><h2>Ch 18 – Financing and valuation</h2><ul>
+<li><b>After-tax WACC:</b><div class="f">\[WACC=r_D(1-T_C)\frac{D}{V}+r_E\frac{E}{V}\]</div>Discount <i>unlevered</i> FCF. Valid if project has firm's business risk and debt ratio.</li>
+<li><b>Rumolt:</b> E = 26·58 = 1,508, D = 991, V = 2,499; pre-tax 11.22%, after tax (30%) 10.39% (slide typo 2,449 → 10.26%).</li>
+<li><b>Valuing businesses:</b> discount FCF at WACC; \(TV=\dfrac{FCF_{H+1}}{WACC-g}\); subtract debt for equity. Multiples: EV/EBIT, EV/EBITDA, EV/Sales, P/E, P/B.</li>
+<li><b>FTE:</b><div class="f">\[E=\frac{C-(1-t_c)\,r_D\,D}{r_E}\]</div></li>
+<li><b>Practice:</b> add preferred (+r<sub>P</sub>P/V), include short-term debt, net NWC. Different risk/debt ratio: compute r<sub>A</sub> → new r<sub>E</sub> → new WACC (Sangria).</li>
+<li><b>APV</b> = base-case NPV + PV(financing side effects). A: +150k −200k issue cost = −50k reject. B: −20k +60k tax shield = +40k accept. Use for changing debt, interest limits, international projects.</li></ul></div></div>
+
+<div class="sl" id="c">C · Governance (ch 19–20)</div>
+<div class="g">
+<div class="c p"><h2>Ch 19 – Corporate governance</h2><ul>
+<li><b>Agency problems:</b> low effort, perks, empire building/entrenchment, too little/much risk (options → risk-taking, gambling for redemption), short-termism.</li>
+<li><b>Boards:</b> US/UK majority independent (≈85%); size trade-off (free-riding vs complexity); overboarding, staggered boards. Germany two-tier: Aufsichtsrat (≈20, half employees = codetermination) + Vorstand (≈10). France: one or two tiers.</li>
+<li><b>Shareholders:</b> voting, dual-class; limited by expertise, influence, incentive; exit vs voice. Control-block value (Nenova): Sweden 1%, USA 2%, Italy 29%, Korea 48%.</li>
+<li><b>Other monitors:</b> auditors, lenders (covenants), acquirers.</li>
+<li><b>Pay:</b> US highest; shift to stock/options; managerial excess vs market forces; pay for performance/luck; LTIPs.</li>
+<li><b>Regimes:</b> Japan keiretsu; Germany banks. Short-termism vs long-term bank systems. Survey: Japan 97% job security &gt; dividends; USA/UK 89% opposite; FR/DE ≈ 60/40.</li></ul></div>
+<div class="c y"><h2>Ch 20 – Stakeholder capitalism</h2><ul>
+<li><b>Stakeholders:</b> employees (DEI), customers, suppliers, communities, environment, government.</li>
+<li><b>Pro shareholder:</b> value needs stakeholder investment (Enlightened Shareholder Value); government regulates; owners pursue social goals themselves.</li>
+<li><b>Pro stakeholder:</b> government fails (lobbying, slow, leakage); shareholders have no comparative advantage; hard to weigh many stakeholders.</li>
+<li><b>3 principles (Table 20.1):</b> Multiplication (social benefit &gt; private cost) + Comparative advantage (social benefit &gt; social cost) + Materiality (creates profit).</li>
+<li><b>Law:</b> Delaware shareholder primacy; UK directors consider others; benefit corporations (Patagonia, Kickstarter); B Corps no legal status.</li>
+<li><b>Practice:</b> purpose, CSRD, ESG-linked pay, ESG ratings, "end of ESG?".</li></ul></div></div>
+
+<div class="sl" id="d">D · Options (ch 21–23)</div>
+<div class="g">
+<div class="c"><h2>Ch 21 – Understanding options</h2><ul>
+<li>Call = right to buy at strike, put = right to sell; writer has obligation. American: any time; European: expiry only.</li>
+<li><b>Payoff (X=80)</b> at 60/70/80/90/100/110: call 0/0/0/10/20/30, put 20/10/0/0/0/0. Profit = payoff − premium.</li>
+<li><b>Strategies:</b> protective put (insurance, keeps upside), stock + sold call (caps upside), straddle (big moves).</li>
+<li><b>Put-call parity:</b><div class="f">\[C+PV(X)=P+S\]</div></li>
+<li><b>Value drivers</b> (call/put): S +/−, X −/+, σ +/+, time +/+, r +/−, dividends −/+. Bounds max(S−X,0) ≤ C ≤ S.</li></ul></div>
+<div class="c o"><h2>Ch 22 – Valuing options</h2><ul>
+<li><b>Replication (Amazon, X 140, r<sub>f</sub> 2%/6m):</b> stock → 116.67 or 168, call 0 or 28. Δ = 28/51.33 = 0.5455; buy 0.5455 sh, borrow 63.64. Call = 0.5455·140 − 63.64/1.02 = 13.98. Put: Δ −0.4545, lend 76.36 → 11.23 (parity ✓).</li>
+<li><b>Risk-neutral:</b> use p so expected return = r<sub>f</sub>, discount at r<sub>f</sub>. Same value.</li>
+<li><b>Multi-period:</b> backwards like a decision tree (u 1.1376, d 0.879).</li>
+<li><b>Black–Scholes:</b><div class="f">\[C=N(d_1)\,S-N(d_2)\,PV(X)\]</div><div class="f">\[d_1=\frac{\ln\!\big(S/PV(X)\big)}{\sigma\sqrt{t}}+\frac{\sigma\sqrt{t}}{2},\qquad d_2=d_1-\sigma\sqrt{t}\]</div>Inputs S, X, σ, t, r. Put via parity.</li>
+<li><b>Ex 3</b> (S=X=60, σ 6%/mo, t 3, r 1%/mo): rough C ≈ 3.4, P ≈ 1.7 (check official solution).</li>
+<li><b>Call riskier than stock?</b> Yes: \(\beta_{opt}=\Delta\,\dfrac{S}{C}\,\beta_{stock}\). Δ in [0,1], rises with S.</li></ul></div></div>
+
+<div class="g">
+<div class="c gr"><h2>Ch 23 – Real options</h2><ul>
+<li>Value of option = NPV with − NPV without. Types: expand, wait, abandon/shrink, vary output.</li>
+<li><b>Expand (Nissan LEAF):</b> ZE0 NPV −46m. Right to invest 900m in ZE1 in 3 yrs = call on asset worth 467m (σ 35%, r<sub>f</sub> 10%). Without option −209m (467 − 900/1.1³). Option +55m → total +9m, go.</li>
+<li><b>R&amp;D (pharma):</b> −18m phase II, 44% pass, option on 130m phase III; underlying 0.8·350/1.096⁵ = 177; option 58.4m. NPV = −18 + 0.44·58.4 = +7.7m, go.</li>
+<li><b>Timing (green hydrogen):</b> waiting = call; costs first-year CF and competitor risk. p·0.375 + (1−p)(−0.12) = 0.05 → p = 0.343.</li>
+<li><b>Abandon (crusher):</b> PV 4.8m, exit 5.2m = put; call 0.49 → put = 0.49 + 5.2/1.04 − 4.8 = 0.69m; value 5.49m, don't abandon yet.</li>
+<li><b>Mothballing:</b> reactivate if price &gt; R, lay up if &lt; M. <b>Flexible production:</b> plant runs only when price &gt; 60/MWh: +35.41 vs −24.67 if always on.</li>
+<li><b>Limits:</b> complex, unclear cash flows, competitors hold options too.</li></ul></div></div>
+
+<div class="sl" id="e">E · Debt and structures (ch 24–26)</div>
+<div class="g">
+<div class="c p"><h2>Ch 24–25 – Debt, credit risk, Oracle</h2><ul>
+<li><b>Oracle:</b> capex $55.7bn vs OCF $32bn → negative FCF; $43bn new debt, $5bn preferred, ≈$20bn equity to protect BBB− (one notch above junk).</li>
+<li><b>Credit risk:</b> 5% bond, par 1,000, 20% risk of paying 500: E[pay] = 0.8·1,050+0.2·500 = 940; value 895; promised yield 17.3%, expected 5%. With 8% → price 870.37, YTM 20.7%. Baa spread peaked ≈5.6pp in 2008; defaults come in waves.</li>
+<li><b>Default option:</b> debt = riskless − put; equity = call. Circular File 50/1.10 − 18.6 = 26.9. Put worth more with higher σ, more debt, longer maturity, lower asset value, lower r, higher dividends.</li>
+<li><b>Ratings:</b> IG = BBB/Baa+. Interest coverage 20.8 (Aa) → 0.2 (Caa–C). ≈ half of Caa–C default in 10 yrs. Recovery: senior secured loans ≈2/3, junior sub ≈1/5.</li>
+<li><b>Altman Z</b> = 1.2x1 + 1.4x2 + 3.3x3 + 0.6x4 + 1.0x5 (WC/TA, RE/TA, EBIT/TA, mkt equity/debt, sales/TA). Low Z = high risk.</li>
+<li><b>Security:</b> debentures, mortgage bonds, collateral trust, equipment trust, ABS. Call, put, sinking fund.</li>
+<li><b>Covenants:</b> limits on debt/dividends, negative pledge, positive (min WC/equity); breach → renegotiation.</li>
+<li><b>Markets:</b> public/private, Yankee, Samurai, Eurobonds, global bonds.</li>
+<li><b>Convertibles:</b> bond + call. Live Nation ratio 9.2259, price 1,000/9.2259 = 108.39. Value at maturity = max(bond, ratio·S).</li>
+<li><b>Bank loans:</b> revolver, bridge, term, syndicated; SOFR (replaced LIBOR). Short-term: commercial paper, MTNs.</li></ul></div>
+<div class="c y"><h2>Ch 26 – Leasing, AI financing, PE</h2><ul>
+<li><b>Operating</b> (short, cancellable, lease vs buy) vs <b>financial</b> (long, non-cancellable, lease vs borrow). Right-of-use asset + liability.</li>
+<li><b>Good reasons:</b> convenience, cancellation option, maintenance, tax shield to taxpayer, lessor handles bankruptcy. <b>Dubious:</b> "saves capital".</li>
+<li><b>Greymare Bus:</b> $100k, 8×16.2k, t 21%. Yr 0: +100 −21 −16.2 +3.4 = +66.2; yrs 1–7: −12.8. Discount at 10%(1−0.21) = 7.9% → NPV −$660 (lessor +$660). Leasing needs an edge (tax, cost, scale, residual). Young unprofitable firm → leasing attractive.</li>
+<li><b>Circular AI financing:</b> 2026 capex ≈$697bn. Nvidia→OpenAI (≤$100bn)→Oracle ($300bn)/Azure ($250bn)→Nvidia chips: same capital counted 3×. BIS 2026 lists as top-3 risk. Echo: Lucent 1999 (vendor financing $8.4bn).</li>
+<li><b>SPV:</b> separate entity owning asset + debt; bankruptcy remote. AI trinity: GPU cluster + creditworthy offtaker + private credit; GPUs obsolete faster → collateral/tenor debate.</li>
+<li><b>PE structure:</b> Fund (LPs+GP) → TopCo → BidCo (senior secured debt) → OpCo. Priority: senior → mezzanine/2nd lien → PIK/shareholder loans → equity. Private credit: direct, illiquid, floating, unitranche.</li>
+<li><b>Waterfall</b> (senior 200, mezz 100, equity 150): sale 280 → 200/80/0; sale 420 → 200/100/120; mezz full at ≥300.</li></ul></div></div>
+
+<div class="sl" id="f">F · Risk and planning (ch 27–31)</div>
+<div class="g">
+<div class="c"><h2>Ch 27–28 – Risk management &amp; hedging</h2><ul>
+<li><b>CRO's 3 questions:</b> major risks? paid for taking them? how to control? Keep paid risks, reduce others.</li>
+<li><b>Against hedging (perfect markets):</b> costs, zero-sum (forward = 0 at start), shareholders can diversify.</li>
+<li><b>For (frictions):</b> distress costs, taxes (progressive), underinvestment/agency, credit access. Same frictions as MM failure.</li>
+<li><b>Currency exposure:</b> transaction, translation (booked in OCI), economic (hardest).</li>
+<li><b>Interest risk:</b> floating loans, duration/refinancing mismatch, intercompany loans.</li>
+<li><b>Internal first:</b> in-house bank, multilateral netting, cash pooling (physical zero-balance: +150,+40,−80,−30 = net +80; notional: no cash moves).</li>
+<li><b>Natural hedges:</b> match debt/revenue currency, costs/revenues, rate profile. Potterton: lease PV $17m offset by $17m debt.</li>
+<li><b>Forwards/futures:</b> future = standardised, marked to market; forward = OTC. \(F_t=S_0(1+r_f-y)^t\) (CAC 7,500 → 7,537.50). Commodity: \(F_t=S_0(1+r_f+\text{storage}-\text{conv. yield})^t\) (WTI conv. yield 25.7%). F&lt;S backwardation, F&gt;S contango.</li>
+<li><b>Exporter:</b> USD 5m, forward 9.80 → SEK 49m always. Unhedged 9.00→45m, 11.00→55m. Missing 55m is a forgone gain, not a loss.</li>
+<li><b>Swaps:</b> pay SOFR+margin, receive SOFR, pay 6% fixed → net 6%+margin.</li>
+<li><b>Options:</b> put protects sellers, call protects buyers; premium, keeps upside. Wheat: future locks, put gives floor; pick put when volume uncertain.</li>
+<li><b>Insurance:</b> pooling; premium includes admin, adverse selection, moral hazard.</li></ul>
+<div class="k"><b>5-step policy:</b> identify exposures → net internally → size/horizon → instrument → control (no speculation, basis &amp; counterparty risk).</div></div>
+<div class="c o"><h2>Ch 29–31 – Analysis &amp; planning</h2><ul>
+<li><b>Book vs market value:</b> ratios say more about running the business. Areas: performance (MVA, EVA, M/B, ROC/ROA/ROE), efficiency (turnovers, margins), leverage (coverage), liquidity (current/quick/cash ratio).</li>
+<li><b>DuPont:</b><div class="f">\[ROE=\frac{NI}{Sales}\times\frac{Sales}{Assets}\times\frac{Assets}{Equity}\]</div> Oracle 25.4%×0.26×6.16 = 40.2%; SSAB 5.1%×0.91×1.57 = 7.2%; Axfood 2.6%×2.42×4.92 = 31.2%.</li>
+<li><b>Limits of ratios:</b> compare over time and peers; accounting choices, seasonality, window dressing.</li>
+<li><b>PI</b> \(=\dfrac{NPV}{\text{investment}}\). Budget 100m: A (100, NPV 20, PI 0.20), B (50, 15, 0.30), C (50, 12, 0.24). NPV rank → A only (20); PI rank → B+C (27). One company WACC is wrong → divisional cost of capital.</li>
+<li><b>Three-statement forecast:</b> IS, BS, CF as one system; %-of-sales method.</li>
+<li><b>Cash budget:</b> start 10, min 5, flows −40, −15, +55, +20 → −30, −45, +10, +30. Need 35 (Q1), 50 (Q2) → peak 50.</li>
+<li><b>EFN:</b> sales 200→250: assets +30 (60%), spontaneous liabilities +8 (16%), retention 0.08·250·0.55 = 11 → EFN = 11.</li>
+<li><b>Growth:</b> internal = RE/net assets; sustainable ≈ ROE×plowback (15%×60% ≈ 9%; 14% plan needs more leverage/equity). Levers: cut payout, raise margin or turnover.</li>
+<li><b>Working capital:</b> operating cycle = inventory + receivables period; cash cycle = − payables period. WCR = inventory + AR − AP.</li>
+<li><b>Surplus cash priority:</b> safety, liquidity, maturity, yield last.</li>
+<li><b>Financing growth:</b> Capex + WC − retained earnings; pecking order; cost of capital, control, flexibility, market conditions.</li></ul></div></div>
+
+<div class="sl" id="g">G · Mergers and control (ch 32–34)</div>
+<div class="g">
+<div class="c p"><h2>Ch 32 – Mergers and takeovers</h2><ul>
+<li><b>Types:</b> horizontal, vertical, conglomerate; waves → consolidation.</li>
+<li><b>Value-creating:</b> scale, scope, vertical integration, complementary resources, better control. DIY test: could shareholders do it themselves?</li>
+<li><b>Redistributing:</b> customers, suppliers, employees, target holders, bondholders, government (tax inversion).</li>
+<li><b>Destroying motives:</b> surplus cash, diversification, EPS boost, empire building, overconfidence.</li>
+<li><b>Bootstrap game:</b> acquirer EPS $2, P/E 20 buys target (earns 200k, worth 2m, P/E 10) with 50,000 shares → EPS 400k/150k = $2.67; value still 6m ($40/sh).</li>
+<li><b>Merger NPV:</b><div class="f">\[\text{Gain}=PV_{AB}-(PV_A+PV_B)\]</div><div class="f">\[\text{Cost}=\text{cash paid}-PV_B,\qquad NPV=\text{Gain}-\text{Cost}\]</div> Ex: 200, 50, synergy 25, price 65 → cost 15, NPV 10.</li>
+<li><b>Mechanics:</b> goodwill = price − book ($18m − $10m = $8m); cash = taxable, shares = tax-free exchange.</li>
+<li><b>Control market:</b> proxy contest, tender offer, merger, LBO, MBO. Defences: white knight, shark repellent, poison pill.</li>
+<li><b>Who gains:</b> target holders usually; acquirers ≈ break even or lose.</li></ul></div>
+<div class="c gr"><h2>Ch 33–34 – Restructuring &amp; what finance knows</h2><ul>
+<li><b>LBO:</b> MBO, MBI, BIMBO. Value from discipline, incentives, monitoring; redistribution from employees, customers, debtholders, tax authority. Leveraged recap.</li>
+<li><b>PE market:</b> LPs repaid first, then 80/20 profit split with GPs. Exits: sale, IPO, SPAC.</li>
+<li><b>Divestitures:</b> spin-off (shares to holders), carve-out (sold to public), asset sales. Privatisation vs nationalisation.</li>
+<li><b>Bankruptcy:</b> Chapter 7 liquidation, Chapter 11 reorganisation; concerns: gambling for resurrection, absolute priority deviations, tax-loss carryforwards. Workouts out of court.</li>
+<li><b>8 ideas we know:</b> NPV · DIY principle · CAPM · efficient markets · value additivity · capital structure · option theory · agency theory.</li>
+<li><b>10 we don't:</b> project risk &amp; firm goal · risk &amp; return · efficiency exceptions · sticky dividends/flexible buybacks · why EPS attention · payout controversy/active funds · which risks to take · value of liquidity · merger waves · crisis-prone systems (house −35%, stocks −55%).</li></ul></div></div>
+
+<div class="sl" id="x">Formula sheet</div>
+<div class="g"><div class="c y"><div class="fl">MM I with tax (permanent debt)</div><div class="f">\[V_L=V_U+t_C\,D\]</div><div class="fl">MM II</div><div class="f">\[r_E=r_A+(r_A-r_D)\frac{D}{E}\]</div><div class="fl">Asset return</div><div class="f">\[r_A=\frac{D}{V}r_D+\frac{E}{V}r_E\]</div><div class="fl">Equity beta (β_D = 0)</div><div class="f">\[\beta_E=\beta_A\left(1+\frac{D}{E}\right)\]</div><div class="fl">Asset beta, general</div><div class="f">\[\beta_A=\frac{D}{V}\beta_D+\frac{E}{V}\beta_E\]</div><div class="fl">WACC (add + r_P·P/V for preferred)</div><div class="f">\[WACC=(1-t_c)\,r_D\frac{D}{V}+r_E\frac{E}{V}\]</div><div class="fl">Terminal value</div><div class="f">\[TV=\frac{FCF_{H+1}}{WACC-g}\]</div><div class="fl">Flow to equity</div><div class="f">\[E=\frac{C-(1-t_c)\,r_D\,D}{r_E}\]</div><div class="fl">APV</div><div class="f">\[APV=NPV_{\text{base}}+PV(\text{financing side effects})\]</div><div class="fl">Trade-off</div><div class="f">\[V=V_U+PV(\text{tax shield})-PV(\text{distress and agency costs})\]</div></div><div class="c y"><div class="fl">Ex-rights price</div><div class="f">\[P_{ex}=\frac{N_{old}\,P+N_{new}\,K}{N_{old}+N_{new}}\]</div><div class="fl">Value of a right (per old share)</div><div class="f">\[P-P_{ex}\]</div><div class="fl">Put-call parity</div><div class="f">\[C+PV(X)=P+S\]</div><div class="fl">Binomial</div><div class="f">\[\Delta=\frac{C_{up}-C_{down}}{S_{up}-S_{down}},\qquad C=\Delta\,S-\frac{\text{loan}}{1+r}\]</div><div class="fl">Black–Scholes</div><div class="f">\[C=N(d_1)\,S-N(d_2)\,PV(X)\]</div><div class="fl"></div><div class="f">\[d_1=\frac{\ln(S/PV(X))}{\sigma\sqrt{t}}+\frac{\sigma\sqrt{t}}{2},\quad d_2=d_1-\sigma\sqrt{t}\]</div><div class="fl">Real option</div><div class="f">\[\text{Value}=NPV_{\text{with}}-NPV_{\text{without}}\]</div><div class="fl">Debt and equity as options</div><div class="f">\[\text{Debt}=\text{riskless debt}-\text{default put},\quad \text{Equity}=\text{call on assets}\]</div><div class="fl">Leasing discount rate</div><div class="f">\[r_D\,(1-t)\]</div><div class="fl">Futures, shares</div><div class="f">\[F_t=S_0\,(1+r_f-y)^t\]</div><div class="fl">Futures, commodities</div><div class="f">\[F_t=S_0\,(1+r_f+\text{storage}-\text{conv. yield})^t\]</div></div><div class="c y"><div class="fl">DuPont</div><div class="f">\[ROE=\frac{NI}{Sales}\times\frac{Sales}{Assets}\times\frac{Assets}{Equity}\]</div><div class="fl">Profitability index</div><div class="f">\[PI=\frac{NPV}{\text{investment}}\]</div><div class="fl">External financing needed</div><div class="f">\[EFN=\Delta\text{Assets}-\Delta\text{Spont. liabilities}-\Delta\text{Retained earnings}\]</div><div class="fl">Sustainable growth</div><div class="f">\[g\approx ROE\times\text{plowback}\]</div><div class="fl">Internal growth</div><div class="f">\[g_{int}=\frac{\text{Retained earnings}}{\text{Net assets}}\]</div><div class="fl">Operating and cash cycle</div><div class="f">\[\text{Op. cycle}=\text{Inv. period}+\text{Rec. period},\quad \text{Cash cycle}=\text{Op. cycle}-\text{Pay. period}\]</div><div class="fl">Working capital requirement</div><div class="f">\[WCR=\text{Inventory}+\text{Receivables}-\text{Payables}\]</div><div class="fl">Merger</div><div class="f">\[\text{Gain}=PV_{AB}-(PV_A+PV_B)\]</div><div class="fl"></div><div class="f">\[\text{Cost}=\text{cash}-PV_B,\qquad NPV=\text{Gain}-\text{Cost}\]</div><div class="fl">Expected vs promised yield</div><div class="f">\[\text{expected: probability-weighted payments; promised: contractual payments}\]</div></div></div>
+
+<div class="sl" id="z">Connections &amp; exam strategy</div>
+<div class="g"><div class="c"><ul>
+<li><b>MM frictions</b> (tax, distress, agency) explain capital structure, payout, hedging, leasing, LBO leverage.</li>
+<li><b>Agency recurs:</b> free cash flow/empire building (15, 17, 19, 32), risk shifting (17, 24, 33), options inducing risk (19, 21).</li>
+<li><b>Option thread:</b> equity = call, debt = riskless − put, convertible = bond + call, real options; higher σ raises option value and owners' risk appetite.</li>
+<li><b>Claim &amp; queue:</b> seniority, covenants, SPVs, PE layers, Ch 7/11.</li>
+<li>Issue signals overvaluation (14) → pecking order (17). DuPont's equity multiplier is MM II. EFN and sustainable growth depend on payout.</li></ul></div>
+<div class="c gr"><div class="k" style="margin:0;border-color:var(--a3)"><b>Valuation toolbox:</b> WACC for steady projects · APV when financing changes · real options for flexibility · merger NPV = synergies − premium.<br><br><b>Practise:</b> lecturer's exercises + example exam: rights issues, MM arbitrage, APV, binomial/Black–Scholes, real options, merger NPV. Trade-off vs pecking order is a classic compare question.</div></div></div>
+<div class="ft">ACF · Exam guide summary · ch 12–34</div>
+</div></body></html>
